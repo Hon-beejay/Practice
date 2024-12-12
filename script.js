@@ -12,7 +12,6 @@ btn.addEventListener('mouseover', () =>{
         const containerRect = container.getBoundingClientRect();
         const buttonRect = btn.getBoundingClientRect();
 
-        // Calculate random new position within container
         const maxX = containerRect.width - buttonRect.width;
         const maxY = containerRect.height - buttonRect.height;
 
